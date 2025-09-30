@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>连接github.com的22端口被拒</title>
+      <link href="/2025/09/30/%E8%BF%9E%E6%8E%A5github-com%E7%9A%8422%E7%AB%AF%E5%8F%A3%E8%A2%AB%E6%8B%92/"/>
+      <url>/2025/09/30/%E8%BF%9E%E6%8E%A5github-com%E7%9A%8422%E7%AB%AF%E5%8F%A3%E8%A2%AB%E6%8B%92/</url>
+      
+        <content type="html"><![CDATA[<p>ssh: connect to host github.com port 22: Connection refused 这个错误提示的是连接github.com的22端口被拒绝了。可以理解这个端口号走不通，那换一个端口号试试。</p><p>遇到这个报错时，大概率是.ssh文件夹里是没有config文件的，可以直接在该文件夹下新建config.txt文件，将下面的命令直接粘贴进去,保存退出后，把此文件的.txt后缀删除（重命名）</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Host github.com</span><br><span class="line">  Hostname ssh.github.com</span><br><span class="line">  Port 443</span><br></pre></td></tr></table></figure><p>修改后，Git Bash 输入：ssh -T <a href="mailto:&#x67;&#x69;&#x74;&#x40;&#103;&#105;&#x74;&#104;&#x75;&#x62;&#46;&#99;&#111;&#109;">git@github.com</a>  测试是否能连接上.</p><p>CSDN上有一篇相对来说非常详细的[文章](<a href="https://blog.csdn.net/hjy_mysql/article/details/131596257">如何解决：ssh: connect to host github.com port 22: Connection refused_ssh: connect to host port 22: connection refused-CSDN博客</a>),有其他方式解决问题,大家可以看一看.</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 博客搭建 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hexo无服务器建站基础教程</title>
       <link href="/2025/09/30/Hexo%E6%97%A0%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%BB%BA%E7%AB%99%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/"/>
       <url>/2025/09/30/Hexo%E6%97%A0%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%BB%BA%E7%AB%99%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/</url>
