@@ -15830,10 +15830,10 @@ div#banners .bannerText {
   z-index: 1000;
 }
 [data-theme=dark] {
-  --efu-theme: #1498e4;
-  --efu-theme-op: rgba(20,152,228,0.137);
-  --efu-theme-op-deep: rgba(20,152,228,0.867);
-  --efu-theme-none: rgba(20,152,228,0);
+  --efu-theme: #ffc848;
+  --efu-theme-op: rgba(255,200,72,0.137);
+  --efu-theme-op-deep: rgba(255,200,72,0.867);
+  --efu-theme-none: rgba(255,200,72,0);
   --efu-blue: #0084ff;
   --efu-red: #ff3842;
   --efu-pink: #d44040;
