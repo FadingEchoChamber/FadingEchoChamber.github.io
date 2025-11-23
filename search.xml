@@ -4,6 +4,81 @@
   
     
     <entry>
+      <title>Hexo嵌入视频</title>
+      <link href="/2025/11/23/Hexo%E5%B5%8C%E5%85%A5%E8%A7%86%E9%A2%91/"/>
+      <url>/2025/11/23/Hexo%E5%B5%8C%E5%85%A5%E8%A7%86%E9%A2%91/</url>
+      
+        <content type="html"><![CDATA[<h1>Hexo 嵌入视频</h1><h2 id="嵌入B站视频">嵌入B站视频</h2><p>如果想把B站的视频嵌入到自己的博客网站中，直接使用官方视频下面的嵌入代码即可。代码如下，其中 aid、bvid 和 cid 随不同视频而变化。</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">iframe</span> <span class="attr">src</span>=<span class="string">&quot;//player.bilibili.com/player.html?aid=xxx&amp;bvid=yyy&amp;cid=zzz&amp;page=1&quot;</span> <span class="attr">scrolling</span>=<span class="string">&quot;no&quot;</span> <span class="attr">border</span>=<span class="string">&quot;0&quot;</span> <span class="attr">frameborder</span>=<span class="string">&quot;no&quot;</span> <span class="attr">framespacing</span>=<span class="string">&quot;0&quot;</span> <span class="attr">allowfullscreen</span>=<span class="string">&quot;true&quot;</span>&gt;</span> <span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span><br></pre></td></tr></table></figure><p>但由于官方提供的这段代码的视频排版不是很美观，而且不能观看高清视频，也发不了弹幕（或关闭弹幕），因此有必要对它进行调整。</p><p><strong>优化示例：</strong></p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">iframe</span> <span class="attr">src</span>=<span class="string">&quot;//player.bilibili.com/player.html?aid=xxx&amp;bvid=yyy&amp;cid=zzz&amp;page=1&amp;high_quality=1&amp;danmaku=0&amp;autoplay=0&quot;</span> <span class="attr">allowfullscreen</span>=<span class="string">&quot;allowfullscreen&quot;</span> <span class="attr">width</span>=<span class="string">&quot;100%&quot;</span> <span class="attr">height</span>=<span class="string">&quot;500&quot;</span> <span class="attr">scrolling</span>=<span class="string">&quot;no&quot;</span> <span class="attr">frameborder</span>=<span class="string">&quot;0&quot;</span> <span class="attr">sandbox</span>=<span class="string">&quot;allow-top-navigation allow-same-origin allow-forms allow-scripts&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span><br></pre></td></tr></table></figure><p><strong>参数解释：</strong></p><ul><li>URL 参数<ul><li><code>&amp;high_quality=1</code>：1 = 最高画质，0 = 最低画质</li><li><code>&amp;danmaku=0</code>：1 = 打开弹幕，0 = 关闭弹幕</li><li><code>&amp;autoplay=0</code>：1 = 自动播放，0 = 禁止自动播放</li></ul></li><li>iframe 参数<ul><li><code>allowfullscreen=&quot;allowfullscreen&quot;</code>：移动端全屏</li><li><code>sandbox=&quot;allow-top-navigation allow-same-origin allow-forms allow-scripts&quot;</code>：禁止弹出网页</li></ul></li></ul><p><strong>详细参数属性说明：</strong></p><table><thead><tr><th style="text-align:left">属性</th><th style="text-align:left">值</th><th style="text-align:left">描述</th></tr></thead><tbody><tr><td style="text-align:left">align</td><td style="text-align:left">left right top middle bottom</td><td style="text-align:left">不赞成使用。请使用样式代替。规定如何根据周围的元素来对齐此框架。</td></tr><tr><td style="text-align:left"></td><td style="text-align:left"></td><td style="text-align:left"></td></tr><tr><td style="text-align:left">frameborder</td><td style="text-align:left">10</td><td style="text-align:left">规定是否显示框架周围的边框。</td></tr><tr><td style="text-align:left">height</td><td style="text-align:left">pixels%</td><td style="text-align:left">规定 iframe 的高度。</td></tr><tr><td style="text-align:left">longdesc</td><td style="text-align:left">URL</td><td style="text-align:left">规定一个页面，该页面包含了有关iframe 的较长描述。</td></tr><tr><td style="text-align:left"></td><td style="text-align:left"></td><td style="text-align:left"></td></tr><tr><td style="text-align:left">marginheight</td><td style="text-align:left">pixels</td><td style="text-align:left">定义 iframe的顶部和底部的边距。</td></tr><tr><td style="text-align:left"></td><td style="text-align:left"></td><td style="text-align:left"></td></tr><tr><td style="text-align:left">marginwidth</td><td style="text-align:left">pixels</td><td style="text-align:left">定义 iframe的左侧和右侧的边距。</td></tr><tr><td style="text-align:left"></td><td style="text-align:left"></td><td style="text-align:left"></td></tr><tr><td style="text-align:left">name</td><td style="text-align:left">frame_name</td><td style="text-align:left">规定 iframe 的名称。</td></tr><tr><td style="text-align:left">sandbox</td><td style="text-align:left">“allow-formsallow-same-originallow-scriptsallow-top-navigation”</td><td style="text-align:left">启用一系列对 <code>&lt;_iframe&gt;</code> 中内容的额外限制。</td></tr><tr><td style="text-align:left">scrolling</td><td style="text-align:left">yesnoauto</td><td style="text-align:left">规定是否在 iframe中显示滚动条。</td></tr><tr><td style="text-align:left"></td><td style="text-align:left"></td><td style="text-align:left"></td></tr><tr><td style="text-align:left">seamless</td><td style="text-align:left">seamless</td><td style="text-align:left">规定 <code>&lt;_iframe&gt;</code> 看上去像是包含文档的一部分。</td></tr><tr><td style="text-align:left">src</td><td style="text-align:left">URL</td><td style="text-align:left">规定在 iframe中显示的文档的 URL。</td></tr><tr><td style="text-align:left"></td><td style="text-align:left"></td><td style="text-align:left"></td></tr><tr><td style="text-align:left">srcdoc</td><td style="text-align:left">HTML_code</td><td style="text-align:left">规定在 <code>&lt;_iframe&gt;</code> 中显示的页面的 HTML 内容。</td></tr><tr><td style="text-align:left">width</td><td style="text-align:left">pixels%</td><td style="text-align:left">定义 iframe 的宽度。</td></tr></tbody></table><h2 id="参考">参考</h2><ul><li><a href="https://cloud.tencent.com/developer/article/1858356">如何在网站中嵌入B 站视频 自适应页面+ 默认 1080P + 并且去掉弹幕</a></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 建站 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>连接github-com的443端口被拒</title>
+      <link href="/2025/11/23/%E8%BF%9E%E6%8E%A5github-com%E7%9A%84443%E7%AB%AF%E5%8F%A3%E8%A2%AB%E6%8B%92/"/>
+      <url>/2025/11/23/%E8%BF%9E%E6%8E%A5github-com%E7%9A%84443%E7%AB%AF%E5%8F%A3%E8%A2%AB%E6%8B%92/</url>
+      
+        <content type="html"><![CDATA[<p>本文，我将介绍如何解决 <a href="https://geek-docs.com/git/git-top-articles/1000100_git_index.html">Git</a> 错误 “Failed to connect to <a href="http://github.com">github.com</a> port 443”。这个错误通常表示无法与 GitHub 服务器建立安全连接，从而导致无法执行 <a href="https://geek-docs.com/git/git-top-articles/1000100_git_index.html">Git</a> 相关操作。我们将讨论可能的原因和解决方法，并提供示例说明。</p><p><strong>阅读更多：<a href="https://geek-docs.com/git">Git 教程</a></strong></p><h2 id="1-检查网络连接">1. 检查网络连接</h2><p>首先，您需要确保您的计算机与互联网建立了稳定的连接。可以尝试打开其他网页或使用其他网络应用程序进行验证。如果您的网络连接存在问题，请通过以下方法进行修复：</p><ul><li><p>检查您的网络连接是否已连接到互联网。</p></li><li><p>重启您的路由器或调制解调器，并尝试重新连接。</p></li><li><p>如果您使用 Wi-Fi 连接，请尝试使用有线连接以排除 Wi-Fi 问题。</p></li></ul><h2 id="2-防火墙和代理设置">2. 防火墙和代理设置</h2><p>防火墙或代理设置可能会阻止 Git 与 GitHub 建立连接。请按照以下步骤检查并修改您的防火墙和代理设置：</p><h3 id="2-1-检查防火墙设置">2.1 检查防火墙设置</h3><ul><li><p>如果您有防火墙软件，请确保其允许与 GitHub 的连接。</p></li><li><p>检查您的路由器防火墙设置，确保端口 443 是打开的。</p></li></ul><h3 id="2-2-检查代理设置">2.2 检查代理设置</h3><ul><li>如果您使用代理连接到互联网，请确保您已正确配置 Git 的代理设置。可以使用以下命令检查和更改代理设置：</li></ul><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global http.proxy http://your-proxy-server:port</span><br><span class="line">$ git config --global --<span class="built_in">unset</span> http.proxy</span><br></pre></td></tr></table></figure><p>Bash</p><h2 id="3-检查-HTTPS-和-SSH-配置">3. 检查 HTTPS 和 SSH 配置</h2><p>Git 支持通过 HTTPS 或 SSH 连接到 GitHub。您可以尝试以下步骤来检查和修改相应的配置：</p><h3 id="3-1-检查-HTTPS-配置">3.1 检查 HTTPS 配置</h3><ul><li>使用以下命令检查您的 Git HTTPS 配置是否正确：</li></ul><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global http.sslVerify <span class="literal">true</span></span><br></pre></td></tr></table></figure><p>Bash</p><p>如果返回 true，则配置正确。否则，您可以尝试将其设置为 true：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global http.sslVerify <span class="literal">true</span></span><br></pre></td></tr></table></figure><p>Bash</p><h3 id="3-2-检查-SSH-配置">3.2 检查 SSH 配置</h3><ul><li>如果您使用 SSH 连接到 GitHub，请确保您的 SSH 设置正确。可以参考 GitHub 文档来设置 SSH 密钥和确认配置。</li></ul><h2 id="4-验证-GitHub-网站状态">4. 验证 GitHub 网站状态</h2><p>有时，GitHub 网站可能会暂时无法访问，从而导致 Git 连接错误。您可以通过访问 GitHub 网站或使用第三方服务来检查 GitHub 网站的状态。</p><ul><li><p>您可以尝试通过浏览器访问</p><p>GitHub</p><p>，以确认网站是否可用。</p></li><li><p>您也可以使用第三方服务，如 <a href="http://www.githubstatus.com/">GitHub 状态</a> 或 <a href="https://downforeveryoneorjustme.com/">downforeveryoneorjustme</a> 来检查 GitHub 网站的状态。</p></li></ul><h2 id="5-更新或重新安装-Git">5. 更新或重新安装 Git</h2><p>如果上述步骤都无法解决问题，您可以尝试更新或重新安装 Git 以确保您使用的是最新版本的 Git。</p><ul><li><p>您可以通过 Git 官方网站</p><p><a href="https://git-scm.com">https://git-scm.com</a></p><p>下载最新版本的 Git。</p></li><li><p>如果您已经安装了 Git，请确保更新至最新版本。您可以使用以下命令来更新 Git：</p></li></ul><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git --version</span><br><span class="line">$ git update</span><br></pre></td></tr></table></figure><p>Bash</p><h2 id="总结">总结</h2><p>在本文中，我们介绍了如何解决 Git 错误 “Failed to connect to <a href="http://github.com">github.com</a> port 443”。我们讨论了网络连接、防火墙和代理设置、HTTPS 和 SSH 配置以及验证 GitHub 网站状态的方法。如果以上方法都无法解决问题，您可以尝试更新或重新安装 Git。希望您通过本文解决了 Git 连接问题，顺利进行版本控制和协作！</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> GIT问题 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>隐隐青山</title>
+      <link href="/2025/11/23/%E9%9A%90%E9%9A%90%E9%9D%92%E5%B1%B1/"/>
+      <url>/2025/11/23/%E9%9A%90%E9%9A%90%E9%9D%92%E5%B1%B1/</url>
+      
+        <content type="html"><![CDATA[<p>​       隐隐青山，迢迢碧水，朝阳与斜辉都美丽得令人动容；哼哼几语，寥寥数字，一颦与一蹙都坦荡得使人歆羡。人生百岁，七十者稀，几度开怀乃是难得。我究竟是用何物换来了浮生？如梦的浮生。</p><p>一双眼眨与睁之间看清绿林和江湖；一颗心收与放之间洞悉历史和人生。人生在世，有时候只为追求那几何之为欢，但是即便可以纵情，即使能够狂欢，此后都总会有一种莫名的失落。失落如斯，却无关乎是非恩怨，无关乎人情暖冷，只因为浮生需要孤独。</p><p>一颗名棉花之糖，一串曰记忆之物。轻轻捏着软软的棉花糖，佑的面庞带着淡淡浅浅真真微笑涌入脑海。细细想来，实在记不清在何时又在何地和佑吃起……也许是因为多数关于佑的记忆都已经脱去实体而依存于脑海的.深处，只需偶以刺激就会翻云吐雾般涌现。</p><p>夜晚的草坪因罕有人至而宁静以致使人格外怜爱。各各孔明灯被一片欢呼声轻轻托起向高处远处飘去，载这如梦浮生中的似梦希冀去到高处俯瞰我们的流年。此时此刻，我多么想独自一人远远地坐着看着，或一首暗涌或一曲暗香伴着我款款品咂流年。</p><p>我从来就知道，浮生真的若雾，如风，似梦，于是不求万古长青，但求虽古尤青。独自追求足够的自由让自己能够去流浪；默默找寻相当的潇洒使自己可以担起坦荡。</p><p>喜欢孤独的人注定一生孤独，可是向往自由的人却极难几载自由。这个想来实在不公，可是浮生便是如是，由不得任何人欢呼抑或是诋毁。</p><p>回望往昔，我只是拿一段流年，换来了一曲浮生。即便如此，我只望，用一段钢琴轻弹的流年，换来一曲琴萧合奏的浮生。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 生活 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 文章 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>HEXO中添加音乐</title>
       <link href="/2025/11/22/HEXO%E4%B8%AD%E6%B7%BB%E5%8A%A0%E9%9F%B3%E4%B9%90/"/>
       <url>/2025/11/22/HEXO%E4%B8%AD%E6%B7%BB%E5%8A%A0%E9%9F%B3%E4%B9%90/</url>
