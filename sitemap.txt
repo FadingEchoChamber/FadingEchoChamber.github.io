@@ -11,8 +11,6 @@ https://fadingechochamber.github.io/2025/08/06/Hexo%E6%97%A0%E6%9C%8D%E5%8A%A1%E
 https://fadingechochamber.github.io/2025/09/30/Hexo%E6%97%A0%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%BB%BA%E7%AB%99%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/
 https://fadingechochamber.github.io/2025/07/31/hello-world/
 https://fadingechochamber.github.io/2025/11/22/FrontMatter/
-https://fadingechochamber.github.io/gallery/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/index.html
-https://fadingechochamber.github.io/gallery/index.html
 https://fadingechochamber.github.io/kit/index.html
 https://fadingechochamber.github.io/links/index.html
 https://fadingechochamber.github.io/about/index.html
