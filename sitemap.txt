@@ -11,14 +11,16 @@ https://fadingechochamber.github.io/2025/08/06/Hexo%E6%97%A0%E6%9C%8D%E5%8A%A1%E
 https://fadingechochamber.github.io/2025/09/30/Hexo%E6%97%A0%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%BB%BA%E7%AB%99%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/
 https://fadingechochamber.github.io/2025/07/31/hello-world/
 https://fadingechochamber.github.io/2025/11/22/FrontMatter/
+https://fadingechochamber.github.io/gallery/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/index.html
+https://fadingechochamber.github.io/gallery/index.html
 https://fadingechochamber.github.io/kit/index.html
 https://fadingechochamber.github.io/links/index.html
 https://fadingechochamber.github.io/about/index.html
 https://fadingechochamber.github.io/music/index.html
 https://fadingechochamber.github.io/manifest.json
 https://fadingechochamber.github.io/
-https://fadingechochamber.github.io/tags/%E5%BB%BA%E7%AB%99/
 https://fadingechochamber.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/
+https://fadingechochamber.github.io/tags/%E5%BB%BA%E7%AB%99/
 https://fadingechochamber.github.io/tags/%E9%9A%8F%E7%AC%94/
 https://fadingechochamber.github.io/tags/GIT%E9%97%AE%E9%A2%98/
 https://fadingechochamber.github.io/tags/%E6%96%87%E7%AB%A0/
