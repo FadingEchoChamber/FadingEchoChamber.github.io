@@ -17,10 +17,10 @@ https://fadingechochamber.github.io/about/index.html
 https://fadingechochamber.github.io/music/index.html
 https://fadingechochamber.github.io/manifest.json
 https://fadingechochamber.github.io/
-https://fadingechochamber.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/
 https://fadingechochamber.github.io/tags/%E5%BB%BA%E7%AB%99/
 https://fadingechochamber.github.io/tags/%E9%9A%8F%E7%AC%94/
-https://fadingechochamber.github.io/tags/%E6%96%87%E7%AB%A0/
+https://fadingechochamber.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/
 https://fadingechochamber.github.io/tags/GIT%E9%97%AE%E9%A2%98/
+https://fadingechochamber.github.io/tags/%E6%96%87%E7%AB%A0/
 https://fadingechochamber.github.io/categories/%E6%8A%80%E6%9C%AF/
 https://fadingechochamber.github.io/categories/%E7%94%9F%E6%B4%BB/
