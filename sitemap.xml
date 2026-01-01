@@ -2,15 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://fadingechochamber.github.io/2026/01/01/%E5%85%B3%E4%BA%8E%E9%AB%98%E4%B8%AD%E6%81%8B%E7%88%B1/</loc>
-    
-    <lastmod>2026-01-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://fadingechochamber.github.io/2025/07/31/hello-world/</loc>
     
     <lastmod>2026-01-01</lastmod>
@@ -182,14 +173,14 @@
 
   
   <url>
-    <loc>https://fadingechochamber.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</loc>
+    <loc>https://fadingechochamber.github.io/tags/%E5%BB%BA%E7%AB%99/</loc>
     <lastmod>2026-01-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://fadingechochamber.github.io/tags/%E5%BB%BA%E7%AB%99/</loc>
+    <loc>https://fadingechochamber.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</loc>
     <lastmod>2026-01-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
