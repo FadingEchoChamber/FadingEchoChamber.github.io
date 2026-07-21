@@ -1,3 +1,4 @@
+https://fadingechochamber.github.io/2026/07/18/codex%E7%99%BB%E5%BD%95%E6%B3%A8%E5%86%8C-%E6%89%8B%E6%9C%BA%E5%8F%B7-%E5%A5%97%E6%8E%A5%E5%AD%97%E7%AD%89%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/
 https://fadingechochamber.github.io/2026/02/27/ffmpeg%E7%9A%84%E6%99%AE%E9%80%9A%E4%B8%8B%E8%BD%BD%E4%B8%8E%E9%85%8D%E7%BD%AE/
 https://fadingechochamber.github.io/2026/02/27/%E6%A0%BC%E5%BC%8F%E5%B7%A5%E5%8E%82/
 https://fadingechochamber.github.io/2026/02/27/%E6%8F%90%E5%8F%96%E9%9F%B3%E9%A2%91%E6%96%87%E4%BB%B6%E5%92%8CMP4%E8%BD%ACMP3%E6%96%B9%E5%BC%8F%E7%9A%84%E5%8C%BA%E5%88%AB%E5%8F%8A%E5%90%84%E8%87%AA%E5%AF%B9%E6%96%87%E4%BB%B6%E7%9A%84%E5%BD%B1%E5%93%8D/
@@ -21,11 +22,12 @@ https://fadingechochamber.github.io/about/index.html
 https://fadingechochamber.github.io/music/index.html
 https://fadingechochamber.github.io/manifest.json
 https://fadingechochamber.github.io/
-https://fadingechochamber.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/
 https://fadingechochamber.github.io/tags/%E5%BB%BA%E7%AB%99/
+https://fadingechochamber.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/
+https://fadingechochamber.github.io/tags/AI/
 https://fadingechochamber.github.io/tags/ffmpeg/
 https://fadingechochamber.github.io/tags/%E9%9A%8F%E7%AC%94/
-https://fadingechochamber.github.io/tags/%E6%96%87%E7%AB%A0/
 https://fadingechochamber.github.io/tags/GIT%E9%97%AE%E9%A2%98/
+https://fadingechochamber.github.io/tags/%E6%96%87%E7%AB%A0/
 https://fadingechochamber.github.io/categories/%E6%8A%80%E6%9C%AF/
 https://fadingechochamber.github.io/categories/%E7%94%9F%E6%B4%BB/
