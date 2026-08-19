@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://fadingechochamber.github.io/music/index.html</loc>
+    
+    <lastmod>2026-08-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://fadingechochamber.github.io/2026/02/27/%E6%A0%BC%E5%BC%8F%E5%B7%A5%E5%8E%82/</loc>
+    
+    <lastmod>2026-08-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://fadingechochamber.github.io/2025/11/23/%E9%9A%90%E9%9A%90%E9%9D%92%E5%B1%B1/</loc>
     
     <lastmod>2026-08-19</lastmod>
@@ -21,15 +39,6 @@
   
   <url>
     <loc>https://fadingechochamber.github.io/2026/07/18/codex%E7%99%BB%E5%BD%95%E6%B3%A8%E5%86%8C-%E6%89%8B%E6%9C%BA%E5%8F%B7-%E5%A5%97%E6%8E%A5%E5%AD%97%E7%AD%89%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</loc>
-    
-    <lastmod>2026-08-19</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://fadingechochamber.github.io/2026/02/27/%E6%A0%BC%E5%BC%8F%E5%B7%A5%E5%8E%82/</loc>
     
     <lastmod>2026-08-19</lastmod>
     
@@ -191,15 +200,6 @@
   </url>
   
   <url>
-    <loc>https://fadingechochamber.github.io/music/index.html</loc>
-    
-    <lastmod>2025-11-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://fadingechochamber.github.io/manifest.json</loc>
     
     <lastmod>2025-11-21</lastmod>
@@ -225,6 +225,13 @@
   </url>
   
   <url>
+    <loc>https://fadingechochamber.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</loc>
+    <lastmod>2026-08-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://fadingechochamber.github.io/tags/ffmpeg/</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -232,7 +239,7 @@
   </url>
   
   <url>
-    <loc>https://fadingechochamber.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</loc>
+    <loc>https://fadingechochamber.github.io/tags/AI/</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -246,7 +253,7 @@
   </url>
   
   <url>
-    <loc>https://fadingechochamber.github.io/tags/%E8%BD%AF%E4%BB%B6/</loc>
+    <loc>https://fadingechochamber.github.io/tags/GIT%E9%97%AE%E9%A2%98/</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -260,14 +267,7 @@
   </url>
   
   <url>
-    <loc>https://fadingechochamber.github.io/tags/GIT%E9%97%AE%E9%A2%98/</loc>
-    <lastmod>2026-08-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://fadingechochamber.github.io/tags/AI/</loc>
+    <loc>https://fadingechochamber.github.io/tags/%E8%BD%AF%E4%BB%B6/</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
