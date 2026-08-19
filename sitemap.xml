@@ -218,28 +218,7 @@
 
   
   <url>
-    <loc>https://fadingechochamber.github.io/tags/AI/</loc>
-    <lastmod>2026-08-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://fadingechochamber.github.io/tags/%E5%BB%BA%E7%AB%99/</loc>
-    <lastmod>2026-08-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://fadingechochamber.github.io/tags/%E6%96%87%E7%AB%A0/</loc>
-    <lastmod>2026-08-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://fadingechochamber.github.io/tags/%E9%9A%8F%E7%AC%94/</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -253,7 +232,7 @@
   </url>
   
   <url>
-    <loc>https://fadingechochamber.github.io/tags/GIT%E9%97%AE%E9%A2%98/</loc>
+    <loc>https://fadingechochamber.github.io/tags/AI/</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -261,6 +240,27 @@
   
   <url>
     <loc>https://fadingechochamber.github.io/tags/ffmpeg/</loc>
+    <lastmod>2026-08-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://fadingechochamber.github.io/tags/%E9%9A%8F%E7%AC%94/</loc>
+    <lastmod>2026-08-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://fadingechochamber.github.io/tags/GIT%E9%97%AE%E9%A2%98/</loc>
+    <lastmod>2026-08-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://fadingechochamber.github.io/tags/%E6%96%87%E7%AB%A0/</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
