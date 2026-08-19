@@ -10,7 +10,7 @@
   <rights>All rights reserved 2026, Fu Dongsheng</rights>
   <subtitle>Moving forward purely</subtitle>
   <title>FadingEchoChamber</title>
-  <updated>2026-07-18T01:41:15.025Z</updated>
+  <updated>2026-08-19T08:03:49.164Z</updated>
   <entry>
     <author>
       <name>Fu Dongsheng</name>
@@ -29,7 +29,7 @@
 <p>今天分享一个我亲测有效的方案，利用 Chrome 插件导出 auth.json，让 Codex CLI 直接&quot;继承&qu]]>
     </summary>
     <title>codex登录注册,手机号,套接字等问题解决方案</title>
-    <updated>2026-07-18T01:41:15.025Z</updated>
+    <updated>2026-08-19T08:03:49.164Z</updated>
   </entry>
   <entry>
     <author>
@@ -52,7 +52,7 @@
 访问 FFmpeg 官方下]]>
     </summary>
     <title>ffmpeg的普通下载与配置</title>
-    <updated>2026-02-27T06:32:26.559Z</updated>
+    <updated>2026-08-19T08:06:03.957Z</updated>
   </entry>
   <entry>
     <author>
@@ -71,7 +71,7 @@
 <p>格式工厂（Format Factory） 是一款功能全面的免费多媒体格式转换软件，由上海格式工厂网络有限公司开发。它支持视频、音频、图片、文档等多种文件格式的相互转换，以其操作简单、]]>
     </summary>
     <title>格式工厂</title>
-    <updated>2026-02-27T06:30:07.955Z</updated>
+    <updated>2026-08-19T08:09:26.687Z</updated>
   </entry>
   <entry>
     <author>
@@ -89,7 +89,7 @@
       <![CDATA[<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span cl]]>
     </summary>
     <title>提取音频文件和MP4转MP3方式的区别及各自对文件的影响</title>
-    <updated>2026-02-27T06:27:45.144Z</updated>
+    <updated>2026-08-19T08:10:54.693Z</updated>
   </entry>
   <entry>
     <author>
@@ -110,7 +110,7 @@
 <p>一、首]]>
     </summary>
     <title>ffmpeg:提取mp4文件中的音频</title>
-    <updated>2026-02-27T06:23:18.029Z</updated>
+    <updated>2026-08-19T08:06:15.382Z</updated>
   </entry>
   <entry>
     <author>
@@ -131,7 +131,7 @@
 <figure class=]]>
     </summary>
     <title>Hexo嵌入视频</title>
-    <updated>2025-11-23T01:59:44.625Z</updated>
+    <updated>2026-08-19T08:08:05.538Z</updated>
   </entry>
   <entry>
     <author>
@@ -149,7 +149,7 @@
       <![CDATA[<p>本文，我将介绍如何解决 <a href="https://geek-docs.com/git/git-top-articles/1000100_git_index.html">Git</a> 错误 “Failed to connect to <a href="http://]]>
     </summary>
     <title>连接github-com的443端口被拒</title>
-    <updated>2025-11-23T01:55:58.490Z</updated>
+    <updated>2026-08-19T08:10:29.312Z</updated>
   </entry>
   <entry>
     <author>
@@ -168,7 +168,7 @@
 <p>一双眼眨与睁之间看清绿林和江湖；一颗心收与放之间洞悉历史和人生。人生在]]>
     </summary>
     <title>隐隐青山</title>
-    <updated>2025-11-23T01:51:10.029Z</updated>
+    <updated>2026-08-19T08:11:45.090Z</updated>
   </entry>
   <entry>
     <author>
@@ -187,7 +187,7 @@
 <h2 id="方法一：HTML-标签嵌入">方法一：HTML 标签]]>
     </summary>
     <title>HEXO中添加音乐</title>
-    <updated>2025-11-22T11:56:44.068Z</updated>
+    <updated>2026-08-19T08:09:07.461Z</updated>
   </entry>
   <entry>
     <author>
@@ -206,7 +206,7 @@
 <h2 id="Front-Matter"><a href="https://solitude.js.org/cn/configurati]]>
     </summary>
     <title>FrontMatter</title>
-    <updated>2025-11-22T11:55:42.551Z</updated>
+    <updated>2026-08-19T08:07:22.486Z</updated>
   </entry>
   <entry>
     <author>
@@ -224,7 +224,7 @@
       <![CDATA[<h3 id="被自己所不能控制的东西限制-应该世界上没人比我更懂这种感受-至少是在我这个年龄-如今16岁未满-看懂了很多很多的东西-客观上来讲我对这个世界和对自我的认识绝对是高于至少90-的人的-有事面对一些问题-自己总在首先站在客观的角度来看-能客观绝不主观-一直很不理解某些]]>
     </summary>
     <title>无题</title>
-    <updated>2025-11-22T11:57:25.243Z</updated>
+    <updated>2026-08-19T08:11:23.180Z</updated>
   </entry>
   <entry>
     <author>
@@ -242,7 +242,7 @@
       <![CDATA[<p>ssh: connect to host <a href="http://github.com">github.com</a> port 22: Connection refused 这个错误提示的是连接github.com的22端口被拒绝了。可以理解这个端口号走不通，那换]]>
     </summary>
     <title>连接github.com的22端口被拒</title>
-    <updated>2025-11-22T11:56:57.734Z</updated>
+    <updated>2026-08-19T08:10:10.411Z</updated>
   </entry>
   <entry>
     <author>
@@ -264,7 +264,7 @@
 <h2 id="git-]]>
     </summary>
     <title>Hexo无服务器建站基础教程</title>
-    <updated>2025-11-22T11:56:24.127Z</updated>
+    <updated>2026-08-19T08:08:28.783Z</updated>
   </entry>
   <entry>
     <author>
@@ -283,7 +283,7 @@
 而现在,在我的教程中,我会把我遇到的所有问题在教程中去让你了解它]]>
     </summary>
     <title>建站教程精讲版</title>
-    <updated>2025-11-22T11:56:52.181Z</updated>
+    <updated>2026-08-19T08:09:51.925Z</updated>
   </entry>
   <entry>
     <author>
@@ -303,7 +303,7 @@
 <p>我自己最开始是在B站上的一位up主<a href="h]]>
     </summary>
     <title>Hexo无服务器建站经历</title>
-    <updated>2025-11-22T11:56:30.932Z</updated>
+    <updated>2026-08-19T08:08:40.508Z</updated>
   </entry>
   <entry>
     <author>
@@ -320,6 +320,6 @@
       <![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for]]>
     </summary>
     <title>Hello World</title>
-    <updated>2026-01-01T14:51:30.274Z</updated>
+    <updated>2026-08-19T08:07:40.494Z</updated>
   </entry>
 </feed>
