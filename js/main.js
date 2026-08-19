@@ -405,55 +405,9 @@ const initHomeCenter = () => {
 };
 
 const initTooltip = () => {
-  const tooltip =
-    document.querySelector(".custom-tooltip") ||
-    document.body.appendChild(
-      Object.assign(document.createElement("div"), {
-        className: "custom-tooltip",
-      })
-    );
-
-  tooltip.style.opacity = "0";
-  tooltip.style.backdropFilter = "none";
-  if (!window.matchMedia("(hover: hover)").matches) return;
-
-  const rootFontSize = parseFloat(
-    getComputedStyle(document.documentElement).fontSize
-  );
-
-  document.querySelectorAll("[heotip]").forEach((element) => {
-    if (element.dataset.tooltipInitialized === "true") return;
-    element.dataset.tooltipInitialized = "true";
-
-    element.addEventListener("mouseenter", () => {
-      tooltip.textContent = element.getAttribute("heotip");
-      tooltip.style.left = "0";
-      tooltip.style.top = "0";
-      tooltip.style.backdropFilter = "blur(10px)";
-      tooltip.style.opacity = "1";
-
-      const targetRect = element.getBoundingClientRect();
-      const tooltipRect = tooltip.getBoundingClientRect();
-      const gap = 10;
-      const maxLeft = window.innerWidth - tooltipRect.width - rootFontSize;
-      const centeredLeft =
-        targetRect.left + (targetRect.width - tooltipRect.width) / 2;
-      const left = Math.max(rootFontSize, Math.min(centeredLeft, maxLeft));
-      const preferredTop =
-        targetRect.top >= tooltipRect.height + gap
-          ? targetRect.top - tooltipRect.height - gap
-          : targetRect.bottom + gap;
-      const maxTop = window.innerHeight - tooltipRect.height - rootFontSize;
-      const top = Math.max(rootFontSize, Math.min(preferredTop, maxTop));
-
-      tooltip.style.left = `${left}px`;
-      tooltip.style.top = `${top}px`;
-    });
-
-    element.addEventListener("mouseleave", () => {
-      tooltip.style.backdropFilter = "none";
-      tooltip.style.opacity = "0";
-    });
+  // 已禁用悬浮提示：不再创建主题 tooltip，并移除元素的原生 title 提示
+  document.querySelectorAll("[heotip][title]").forEach((element) => {
+    element.removeAttribute("title");
   });
 };
 
