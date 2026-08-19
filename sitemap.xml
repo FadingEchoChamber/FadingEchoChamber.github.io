@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://fadingechochamber.github.io/2026/08/19/AI%E6%97%B6%E4%BB%A3%E4%B8%AA%E4%BA%BA%E8%AF%84%E8%AE%BA/</loc>
+    
+    <lastmod>2026-08-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://fadingechochamber.github.io/music/index.html</loc>
     
     <lastmod>2026-08-19</lastmod>
@@ -218,6 +227,13 @@
 
   
   <url>
+    <loc>https://fadingechochamber.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</loc>
+    <lastmod>2026-08-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://fadingechochamber.github.io/tags/%E5%BB%BA%E7%AB%99/</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -225,7 +241,7 @@
   </url>
   
   <url>
-    <loc>https://fadingechochamber.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</loc>
+    <loc>https://fadingechochamber.github.io/tags/%E9%9A%8F%E7%AC%94/</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -246,13 +262,6 @@
   </url>
   
   <url>
-    <loc>https://fadingechochamber.github.io/tags/%E9%9A%8F%E7%AC%94/</loc>
-    <lastmod>2026-08-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://fadingechochamber.github.io/tags/%E8%BD%AF%E4%BB%B6/</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -260,14 +269,14 @@
   </url>
   
   <url>
-    <loc>https://fadingechochamber.github.io/tags/%E6%96%87%E7%AB%A0/</loc>
+    <loc>https://fadingechochamber.github.io/tags/GIT%E9%97%AE%E9%A2%98/</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://fadingechochamber.github.io/tags/GIT%E9%97%AE%E9%A2%98/</loc>
+    <loc>https://fadingechochamber.github.io/tags/%E6%96%87%E7%AB%A0/</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
